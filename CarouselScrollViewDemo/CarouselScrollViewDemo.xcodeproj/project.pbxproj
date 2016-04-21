@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C942A6BB1CC894CC001684CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A6BA1CC894CC001684CF /* main.m */; };
+		C942A6BE1CC894CC001684CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A6BD1CC894CC001684CF /* AppDelegate.m */; };
+		C942A6C11CC894CC001684CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A6C01CC894CC001684CF /* ViewController.m */; };
+		C942A6C41CC894CC001684CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C942A6C21CC894CC001684CF /* Main.storyboard */; };
+		C942A6C71CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C942A6C51CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodeld */; };
+		C942A6C91CC894CC001684CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C942A6C81CC894CC001684CF /* Assets.xcassets */; };
+		C942A6CC1CC894CC001684CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C942A6CA1CC894CC001684CF /* LaunchScreen.storyboard */; };
+		C942A6D71CC894CD001684CF /* CarouselScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A6D61CC894CD001684CF /* CarouselScrollViewDemoTests.m */; };
+		C942A6E21CC894CD001684CF /* CarouselScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A6E11CC894CD001684CF /* CarouselScrollViewDemoUITests.m */; };
+		C942A6FE1CC8977C001684CF /* carouselScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A6FB1CC8977C001684CF /* carouselScrollView.m */; };
+		C942A6FF1CC8977C001684CF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A6FD1CC8977C001684CF /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C942A6D31CC894CC001684CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C942A6AE1CC894CC001684CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C942A6B51CC894CC001684CF;
+			remoteInfo = CarouselScrollViewDemo;
+		};
+		C942A6DE1CC894CD001684CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C942A6AE1CC894CC001684CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C942A6B51CC894CC001684CF;
+			remoteInfo = CarouselScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C942A6B61CC894CC001684CF /* CarouselScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C942A6BA1CC894CC001684CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C942A6BC1CC894CC001684CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C942A6BD1CC894CC001684CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C942A6BF1CC894CC001684CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C942A6C01CC894CC001684CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C942A6C31CC894CC001684CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C942A6C61CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarouselScrollViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		C942A6C81CC894CC001684CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C942A6CB1CC894CC001684CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C942A6CD1CC894CC001684CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C942A6D21CC894CC001684CF /* CarouselScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C942A6D61CC894CD001684CF /* CarouselScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselScrollViewDemoTests.m; sourceTree = "<group>"; };
+		C942A6D81CC894CD001684CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C942A6DD1CC894CD001684CF /* CarouselScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C942A6E11CC894CD001684CF /* CarouselScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselScrollViewDemoUITests.m; sourceTree = "<group>"; };
+		C942A6E31CC894CD001684CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C942A6FA1CC8977C001684CF /* carouselScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carouselScrollView.h; sourceTree = "<group>"; };
+		C942A6FB1CC8977C001684CF /* carouselScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carouselScrollView.m; sourceTree = "<group>"; };
+		C942A6FC1CC8977C001684CF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C942A6FD1CC8977C001684CF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C942A6B31CC894CC001684CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C942A6CF1CC894CC001684CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C942A6DA1CC894CD001684CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C942A6AD1CC894CC001684CF = {
+			isa = PBXGroup;
+			children = (
+				C942A6B81CC894CC001684CF /* CarouselScrollViewDemo */,
+				C942A6D51CC894CD001684CF /* CarouselScrollViewDemoTests */,
+				C942A6E01CC894CD001684CF /* CarouselScrollViewDemoUITests */,
+				C942A6B71CC894CC001684CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C942A6B71CC894CC001684CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C942A6B61CC894CC001684CF /* CarouselScrollViewDemo.app */,
+				C942A6D21CC894CC001684CF /* CarouselScrollViewDemoTests.xctest */,
+				C942A6DD1CC894CD001684CF /* CarouselScrollViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C942A6B81CC894CC001684CF /* CarouselScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C942A6F91CC8977C001684CF /* carouselScrollView */,
+				C942A6BC1CC894CC001684CF /* AppDelegate.h */,
+				C942A6BD1CC894CC001684CF /* AppDelegate.m */,
+				C942A6BF1CC894CC001684CF /* ViewController.h */,
+				C942A6C01CC894CC001684CF /* ViewController.m */,
+				C942A6C21CC894CC001684CF /* Main.storyboard */,
+				C942A6C81CC894CC001684CF /* Assets.xcassets */,
+				C942A6CA1CC894CC001684CF /* LaunchScreen.storyboard */,
+				C942A6CD1CC894CC001684CF /* Info.plist */,
+				C942A6C51CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodeld */,
+				C942A6B91CC894CC001684CF /* Supporting Files */,
+			);
+			path = CarouselScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		C942A6B91CC894CC001684CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C942A6BA1CC894CC001684CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C942A6D51CC894CD001684CF /* CarouselScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C942A6D61CC894CD001684CF /* CarouselScrollViewDemoTests.m */,
+				C942A6D81CC894CD001684CF /* Info.plist */,
+			);
+			path = CarouselScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		C942A6E01CC894CD001684CF /* CarouselScrollViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C942A6E11CC894CD001684CF /* CarouselScrollViewDemoUITests.m */,
+				C942A6E31CC894CD001684CF /* Info.plist */,
+			);
+			path = CarouselScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		C942A6F91CC8977C001684CF /* carouselScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C942A6FA1CC8977C001684CF /* carouselScrollView.h */,
+				C942A6FB1CC8977C001684CF /* carouselScrollView.m */,
+				C942A6FC1CC8977C001684CF /* UIView+Extension.h */,
+				C942A6FD1CC8977C001684CF /* UIView+Extension.m */,
+			);
+			path = carouselScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C942A6B51CC894CC001684CF /* CarouselScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C942A6E61CC894CD001684CF /* Build configuration list for PBXNativeTarget "CarouselScrollViewDemo" */;
+			buildPhases = (
+				C942A6B21CC894CC001684CF /* Sources */,
+				C942A6B31CC894CC001684CF /* Frameworks */,
+				C942A6B41CC894CC001684CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarouselScrollViewDemo;
+			productName = CarouselScrollViewDemo;
+			productReference = C942A6B61CC894CC001684CF /* CarouselScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C942A6D11CC894CC001684CF /* CarouselScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C942A6E91CC894CD001684CF /* Build configuration list for PBXNativeTarget "CarouselScrollViewDemoTests" */;
+			buildPhases = (
+				C942A6CE1CC894CC001684CF /* Sources */,
+				C942A6CF1CC894CC001684CF /* Frameworks */,
+				C942A6D01CC894CC001684CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C942A6D41CC894CC001684CF /* PBXTargetDependency */,
+			);
+			name = CarouselScrollViewDemoTests;
+			productName = CarouselScrollViewDemoTests;
+			productReference = C942A6D21CC894CC001684CF /* CarouselScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C942A6DC1CC894CD001684CF /* CarouselScrollViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C942A6EC1CC894CD001684CF /* Build configuration list for PBXNativeTarget "CarouselScrollViewDemoUITests" */;
+			buildPhases = (
+				C942A6D91CC894CD001684CF /* Sources */,
+				C942A6DA1CC894CD001684CF /* Frameworks */,
+				C942A6DB1CC894CD001684CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C942A6DF1CC894CD001684CF /* PBXTargetDependency */,
+			);
+			name = CarouselScrollViewDemoUITests;
+			productName = CarouselScrollViewDemoUITests;
+			productReference = C942A6DD1CC894CD001684CF /* CarouselScrollViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C942A6AE1CC894CC001684CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李轩霖";
+				TargetAttributes = {
+					C942A6B51CC894CC001684CF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Q8VZJP5QEL;
+					};
+					C942A6D11CC894CC001684CF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C942A6B51CC894CC001684CF;
+					};
+					C942A6DC1CC894CD001684CF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C942A6B51CC894CC001684CF;
+					};
+				};
+			};
+			buildConfigurationList = C942A6B11CC894CC001684CF /* Build configuration list for PBXProject "CarouselScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C942A6AD1CC894CC001684CF;
+			productRefGroup = C942A6B71CC894CC001684CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C942A6B51CC894CC001684CF /* CarouselScrollViewDemo */,
+				C942A6D11CC894CC001684CF /* CarouselScrollViewDemoTests */,
+				C942A6DC1CC894CD001684CF /* CarouselScrollViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C942A6B41CC894CC001684CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C942A6CC1CC894CC001684CF /* LaunchScreen.storyboard in Resources */,
+				C942A6C91CC894CC001684CF /* Assets.xcassets in Resources */,
+				C942A6C41CC894CC001684CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C942A6D01CC894CC001684CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C942A6DB1CC894CD001684CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C942A6B21CC894CC001684CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C942A6FF1CC8977C001684CF /* UIView+Extension.m in Sources */,
+				C942A6C71CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodeld in Sources */,
+				C942A6C11CC894CC001684CF /* ViewController.m in Sources */,
+				C942A6BE1CC894CC001684CF /* AppDelegate.m in Sources */,
+				C942A6BB1CC894CC001684CF /* main.m in Sources */,
+				C942A6FE1CC8977C001684CF /* carouselScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C942A6CE1CC894CC001684CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C942A6D71CC894CD001684CF /* CarouselScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C942A6D91CC894CD001684CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C942A6E21CC894CD001684CF /* CarouselScrollViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C942A6D41CC894CC001684CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C942A6B51CC894CC001684CF /* CarouselScrollViewDemo */;
+			targetProxy = C942A6D31CC894CC001684CF /* PBXContainerItemProxy */;
+		};
+		C942A6DF1CC894CD001684CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C942A6B51CC894CC001684CF /* CarouselScrollViewDemo */;
+			targetProxy = C942A6DE1CC894CD001684CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C942A6C21CC894CC001684CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C942A6C31CC894CC001684CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C942A6CA1CC894CC001684CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C942A6CB1CC894CC001684CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C942A6E41CC894CD001684CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C942A6E51CC894CD001684CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C942A6E71CC894CD001684CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CarouselScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sasd.CarouselScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C942A6E81CC894CD001684CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CarouselScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sasd.CarouselScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C942A6EA1CC894CD001684CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarouselScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sasd.CarouselScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselScrollViewDemo.app/CarouselScrollViewDemo";
+			};
+			name = Debug;
+		};
+		C942A6EB1CC894CD001684CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarouselScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sasd.CarouselScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselScrollViewDemo.app/CarouselScrollViewDemo";
+			};
+			name = Release;
+		};
+		C942A6ED1CC894CD001684CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarouselScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sasd.CarouselScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarouselScrollViewDemo;
+			};
+			name = Debug;
+		};
+		C942A6EE1CC894CD001684CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarouselScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sasd.CarouselScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarouselScrollViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C942A6B11CC894CC001684CF /* Build configuration list for PBXProject "CarouselScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C942A6E41CC894CD001684CF /* Debug */,
+				C942A6E51CC894CD001684CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C942A6E61CC894CD001684CF /* Build configuration list for PBXNativeTarget "CarouselScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C942A6E71CC894CD001684CF /* Debug */,
+				C942A6E81CC894CD001684CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C942A6E91CC894CD001684CF /* Build configuration list for PBXNativeTarget "CarouselScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C942A6EA1CC894CD001684CF /* Debug */,
+				C942A6EB1CC894CD001684CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C942A6EC1CC894CD001684CF /* Build configuration list for PBXNativeTarget "CarouselScrollViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C942A6ED1CC894CD001684CF /* Debug */,
+				C942A6EE1CC894CD001684CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C942A6C51CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C942A6C61CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodel */,
+			);
+			currentVersion = C942A6C61CC894CC001684CF /* CarouselScrollViewDemo.xcdatamodel */;
+			path = CarouselScrollViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C942A6AE1CC894CC001684CF /* Project object */;
+}
